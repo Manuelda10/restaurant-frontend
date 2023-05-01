@@ -1,3 +1,42 @@
 .hd-menu-container nav ul li a.active{
     color: red;
 }
+
+.header{
+    position: fixed;
+    width: 100%;
+    height: 3rem;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hd-lg-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hd-menu-container{
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hd-menu-container ul li{
+    display: inline;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.hd-user-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
