@@ -6,3 +6,10 @@ body{
   padding-left: 2rem;
   padding-right: 2rem;
 }
+
+@media screen and (max-width: 480px) {
+  body {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
