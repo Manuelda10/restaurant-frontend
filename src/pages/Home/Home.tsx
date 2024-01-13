@@ -1,9 +1,23 @@
+import Carousel from "../../components/Carousel/Carousel";
+
 const Home = () => {
+
+  const slides = [
+    {
+      image: '/assets/img-dummy.jpg'
+    },
+    {
+      image: '/assets/img-dummy2.jpg'
+    },
+    {
+      image: '/assets/img-dummy3.jpg'
+    }
+  ];
+
   return (
     <div className="">
-      <h1>Contenido de la página home</h1>
-      <div className="h-screen">
-
+      <div className=" ">
+        <Carousel slides={slides} />  
       </div>
     </div>
   );
