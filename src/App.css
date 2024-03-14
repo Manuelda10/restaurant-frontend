@@ -1,0 +1,11 @@
+#navbar-list a{
+  @apply py-3 px-2 md:px-6 rounded-md text-gray-700 hover:text-gray-950 ease-in duration-150
+}
+
+#navbar-list a.active{
+  @apply bg-orange-500 text-white 
+}
+
+#navbar-list-mobile a.active{
+  @apply text-white
+}
