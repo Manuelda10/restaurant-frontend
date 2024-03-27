@@ -2,6 +2,52 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Pridi';
+  src: url('../public/assets/fonts/Pridi-ExtraLight.woff2') format('woff2');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pridi';
+  src: url('../public/assets/fonts/Pridi-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pridi';
+  src: url('../public/assets/fonts/Pridi-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pridi';
+  src: url('../public/assets/fonts/Pridi-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pridi';
+  src: url('../public/assets/fonts/Pridi-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pridi';
+  src: url('../public/assets/fonts/Pridi-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+body{
+  font-family: 'Pridi', sans-serif;
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -10,10 +56,6 @@
 
 html{
   @apply overflow-y-scroll;
-}
-
-body{
-  @apply sm:px-8;
 }
 
 /* Personaliza la barra de desplazamiento para todo el documento */

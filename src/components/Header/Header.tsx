@@ -3,7 +3,7 @@ import logo from '/logo-restaurant.png'
 
 const Header = () => {
   return(
-    <header className='bg-white font-semibold border-b-2 border-gray-300 sm:sticky sm:top-0 z-10 '>
+    <header className='bg-white font-semibold border-b-2 border-gray-300 sm:sticky sm:px-8 sm:top-0 z-10 '>
       <nav className='flex justify-center sm:justify-between text-gray-700 items-center'>
         <div className='flex justify-center items-center'>
           <Link to="/"><img src={logo} width='180'></img></Link>

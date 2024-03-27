@@ -1,7 +1,8 @@
+import Card from "../../components/Card/Card";
 
 const Home = () => {
   return (
-    <div className="">
+    <main>
       <div className="flex justify-center bg-sky-950 relative">
         <div className="w-1/2 sm:w-1/3 lg:w-1/2 flex justify-end">
           <img className="object-cover min-w-64" src="/assets/img-banner.png"></img>
@@ -14,11 +15,68 @@ const Home = () => {
               <img src="/assets/hamburguer.png" className="w-20 lg:w-36"></img>
             </div> 
           </div>   
-          
         </div>
-        
       </div>
-    </div>
+
+      <div className="grid grid-cols-auto-fit gap-8 p-8">
+        <Card 
+          title="Hamburguesa buena buenísima" 
+          description="Hamburguesa de carne con queso" 
+          price={100} 
+          discount={10}
+          imgURL="/assets/lomo.jpeg"
+        />
+        <Card 
+          title="Pollo broaster alitas" 
+          description="Hamburguesa de carne con queso" 
+          price={100} 
+          discount={10}
+          imgURL="/assets/lomo.jpeg"
+        />
+        <Card 
+          title="Hamburguesa" 
+          description="Hamburguesa de carne con queso" 
+          price={100} 
+          discount={10}
+          imgURL="/assets/lomo.jpeg"
+        />
+        <Card 
+          title="Hamburguesa" 
+          description="Hamburguesa de carne con queso" 
+          price={100} 
+          discount={10}
+          imgURL="/assets/lomo.jpeg"
+        />
+        <Card 
+          title="Hamburguesa" 
+          description="Hamburguesa de carne con queso" 
+          price={100} 
+          discount={10}
+          imgURL="/assets/lomo.jpeg"
+        />
+        <Card 
+          title="Hamburguesa" 
+          description="Hamburguesa de carne con queso" 
+          price={100} 
+          discount={10}
+          imgURL="/assets/lomo.jpeg"
+        />
+        <Card 
+          title="Hamburguesa" 
+          description="Hamburguesa de carne con queso" 
+          price={100} 
+          discount={10}
+          imgURL="/assets/lomo.jpeg"
+        />
+        <Card 
+          title="Hamburguesa" 
+          description="Hamburguesa de carne con queso" 
+          price={100} 
+          discount={10}
+          imgURL="/assets/lomo.jpeg"
+        />
+      </div>
+    </main>
   );
 }
 
